@@ -1,0 +1,12 @@
+{
+  "name": "DummyProject",
+  "version": "1.0.0",
+  "description": "This is a template",
+  "author": "Anonymous",
+  "license": "ISC",
+  "dependencies": {
+		"DummyLib":{
+				"uri":"../DummyLib"
+		}
+  }
+}

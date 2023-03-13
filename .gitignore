@@ -1,2 +1,3 @@
 **/*build
 **/c_modules/
+**/__pycache__/

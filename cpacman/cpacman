@@ -1,0 +1,18 @@
+#! /usr/bin/python3
+import sys
+import os
+
+from CLIMain import CLIMain
+
+def main( argv ):
+    if( len(argv) < 1 ):
+        raise Exception( f"{argv[0]} [COMMAND]" )
+    cli = CLIMain()
+    cli.process( argv[1:] )
+
+if __name__ == "__main__":
+    try:
+        main( sys.argv )
+    except Exception as error:
+        print( error , file=sys.stderr )
+

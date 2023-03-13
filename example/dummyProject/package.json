@@ -4,9 +4,7 @@
   "description": "This is a template",
   "author": "Anonymous",
   "license": "ISC",
-  "dependencies": {
-		"DummyLib":{
-				"uri":"../DummyLib"
-		}
-  }
+  "dependencies": [
+		{ "name":"DummyLib", "uri":"../DummyLib", "type":"path" }
+  ]
 }
